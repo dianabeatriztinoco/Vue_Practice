@@ -9,7 +9,7 @@ data() {
 methods: {
 
     showAlert(){
-        alert("i've been clicked!")
+        return alert("i've been clicked!")
     },
 
     userInput(event){
